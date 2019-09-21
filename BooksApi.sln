@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4278E7B-9FD8-4CDB-9411-A1F5A935EFA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DD22712B-6537-470A-A6DB-C5E22445FF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApi", "src\BooksApi\BooksApi.csproj", "{2508FD43-E69C-4D3F-A17B-8E9EC3074B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApi.Tests", "tests\BooksApi.Tests\BooksApi.Tests.csproj", "{2057FBF0-4750-44C4-82D6-E71C6404BA8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2508FD43-E69C-4D3F-A17B-8E9EC3074B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2508FD43-E69C-4D3F-A17B-8E9EC3074B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2508FD43-E69C-4D3F-A17B-8E9EC3074B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2508FD43-E69C-4D3F-A17B-8E9EC3074B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2057FBF0-4750-44C4-82D6-E71C6404BA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2057FBF0-4750-44C4-82D6-E71C6404BA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2057FBF0-4750-44C4-82D6-E71C6404BA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2057FBF0-4750-44C4-82D6-E71C6404BA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2508FD43-E69C-4D3F-A17B-8E9EC3074B12} = {A4278E7B-9FD8-4CDB-9411-A1F5A935EFA2}
+		{2057FBF0-4750-44C4-82D6-E71C6404BA8F} = {DD22712B-6537-470A-A6DB-C5E22445FF7A}
+	EndGlobalSection
+EndGlobal
